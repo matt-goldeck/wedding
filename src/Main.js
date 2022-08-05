@@ -32,9 +32,6 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div style={{display:'none'}}>
-          hi computer friends
-        </div>
         <div>
           <div className="header-container">
               <div className="header-img pickgradient">
