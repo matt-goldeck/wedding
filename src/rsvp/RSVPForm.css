@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+}
+.rsvp-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #e3f3ee;
+    max-width: 50%;
+
+    margin: 0 auto;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+.rsvp-control {
+    max-width: 100%;
+    margin-bottom: 1vh;
+}
+
+.rsvp-control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.attendance {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.attendance-option {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.person-controls-wrapper {
+    margin-bottom: 10px;
+    max-width: 45%;
+}
+
+.person-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: .5vw;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    margin-bottom: 1rem;
+
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #307053;
+
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    line-height: 1vh;
+
+    max-width: 100%;
+}
+
+.person-control {
+    padding: .25vw;
+    max-width: 100%;
+}
+
+.person-form input {
+    max-width: 75%;
+}
+
+.person-icon {
+    font-size: 3vh;
+}
+
+.errors {
+    color: lightcoral;
+}
+
+.custom-button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    border: .5px solid gray;
+
+    font-size: medium;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #ccc;
+}

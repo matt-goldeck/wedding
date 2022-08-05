@@ -1,0 +1,28 @@
+ul {
+    text-align: center;
+    list-style: none;
+
+}
+
+.registry-button {
+    color: white;
+    font-size: 5vh;
+    background-color: #24533a;
+    margin: 0 auto;
+
+    max-width: 15vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+    margin-top: 10px;
+}
+
+.registry-button:hover {
+    background-color: #378060;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

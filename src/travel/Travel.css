@@ -1,0 +1,20 @@
+h3 {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #788a7e;
+    text-decoration: underline;
+}
+a:visited {
+    color: #788a7e;
+}
+a:hover {
+    color: #5b695f;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}

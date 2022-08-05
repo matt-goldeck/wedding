@@ -1,3 +1,18 @@
 div {
     text-align: center;
 }
+
+.about-detail {
+    border-radius: 10px;
+    /* background-color:  */
+    max-width: 75%;
+    margin: 0 auto;
+    /* filter: drop-shadow(5px 5px 5px #222);
+
+    background-color: black;
+    color: #fff; */
+}
+
+.about-detail-sub {
+    padding-left: 5px;
+}

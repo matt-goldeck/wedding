@@ -1,5 +1,5 @@
 body {
-    background-color: #788a7e;
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 0;
   }
@@ -14,7 +14,10 @@ body {
   ul.navbar {
     padding: 0;
     text-align: center;
-    background-color: black;
+    background-color: #24533a;
+  }
+  .active {
+    background-color: #378060;
   }
   ul.navbar li a {
     color: #FFF;
@@ -24,19 +27,12 @@ body {
     display: inline-block;
   }
 
-  .content {
-    background-color: #FFF;
-    padding: 20px;
-  }
   .content h2 {
     padding: 0;
     margin: 0;
   }
   .content li {
     margin-bottom: 10px;
-  }
-  .active {
-    background-color: #0099FF;
   }
 
   .header-container {
@@ -50,7 +46,7 @@ body {
   .header-img {
       position:relative;
       display: inline-block;
-      max-width: 60%;
+      max-width: 65vw;
   }
   
   .header-img img {
@@ -58,22 +54,6 @@ body {
     max-height:100%;
 
     display: block;
-    border-radius: 20px;
-    filter: drop-shadow(5px 5px 5px #222);
-  }
-
-  .pickgradient{
-    position:relative;
-    display:inline-block;
-  }
-  
-  .pickgradient:after {
-    content:'';
-    position:absolute;
-    left:0; top:0;
-    width:100%; height:100%;
-    display:inline-block;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
     border-radius: 20px;
   }
 
