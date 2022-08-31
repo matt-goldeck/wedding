@@ -12,7 +12,7 @@ class About extends Component {
         <div className='about-detail'>
             <b>-- When --</b>
             <div className='about-detail-sub'>
-              <p>November 5th 2022 at 6 PM</p>
+              <p>November 5th 2022 at 5 PM</p>
             </div>
             <b>-- Where --</b>
             <div className='about-detail-sub'>
