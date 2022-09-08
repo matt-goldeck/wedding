@@ -98,3 +98,12 @@ body {
 .custom-button:hover {
     background-color: #ccc;
 }
+
+.accented {
+    font-size: .8rem;
+    color: gray;
+}
+
+.accented-wrapper {
+    line-height: .5rem;
+}

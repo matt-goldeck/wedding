@@ -7,8 +7,8 @@ function getIcon() {
     const EMOJIS = [
         '🤵🏻‍♂️', '🤵🏼', '🤵🏽‍♂️',
         '🤵🏻‍♀️', '🤵🏼‍♀️', '🤵🏽‍♀️', 
-        '💃🏻', '💃🏽',
-        '🕺🏻', '🕺🏽',
+        '💃🏻', '💃🏼',
+        '🕺🏻', '🕺🏼',
         '🏃🏻‍♀️', '🏃🏻', '🧗🏻‍♀️', '🧗🏻', '🧗🏼‍♀️', '🧗🏼',
     ]
     return EMOJIS[Math.floor(Math.random()*EMOJIS.length)]
@@ -188,7 +188,10 @@ function RSVPForm(props) {
                         {errors.partyName && <p className='errors'><b>{errors.partyName}</b></p>}
                     </div>
                     <div className='rsvp-control'>
-                        <label>Message (Optional)</label>
+                        <div className='accented-wrapper'>
+                            <p><b>Message</b></p>
+                            <p className='accented'><i>(Optional)</i></p>
+                        </div>
                         <input 
                             type='text'
                             value={userInput.message}
@@ -197,7 +200,7 @@ function RSVPForm(props) {
                         />
                     </div>
                     <div className='rsvp-control'>
-                        <label>Attending?</label>
+                        <p><b>Attending?</b></p>
                         <div className='attendance' onChange={onAttendanceChanged}>
                             <label>
                                 Yes
@@ -220,7 +223,7 @@ function RSVPForm(props) {
                     </div>
                     {userInput.attending && <div className='rsvp-control person-controls-wrapper'>
                         <p><b>- Attendees -</b></p>
-                        <p>Please list each person in your party that is attending</p>
+                        <p className='accented'>Please list each person in your party that is attending</p>
                         {userInput.people.map((person, pos) => {
                             return(
                                 <PersonForm 
