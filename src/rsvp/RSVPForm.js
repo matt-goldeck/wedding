@@ -219,7 +219,8 @@ function RSVPForm(props) {
                         </div>
                     </div>
                     {userInput.attending && <div className='rsvp-control person-controls-wrapper'>
-                        <p><b>- Guests -</b></p>
+                        <p><b>- Attendees -</b></p>
+                        <p>Please list each person in your party that is attending</p>
                         {userInput.people.map((person, pos) => {
                             return(
                                 <PersonForm 
