@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PersonForm from "./PersonForm";
 import './RSVPForm.css';
-import postToAPI from "./APITools";
+import { postToAPI } from "../utils/APITools";
 
 function getIcon() {
     const EMOJIS = [

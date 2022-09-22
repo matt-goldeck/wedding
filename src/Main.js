@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import About from "./about/About";
 import RSVP from "./rsvp/RSVP";
+import RSVPList from "./rsvp_list/RSVPList"
 import Travel from "./travel/Travel";
 import Registry from "./registry/Registry";
 
@@ -64,6 +65,7 @@ class Main extends Component {
                     />}
                   />
                   <Route exact path="/registry" element={<Registry/>}/>
+                  <Route exact path="/rsvp-list" element={<RSVPList/>}/>
               </Routes>
           </div>
         </div>

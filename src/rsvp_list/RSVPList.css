@@ -1,0 +1,20 @@
+.infoTableDiv {
+    border: 1px solid black;
+    margin: auto;
+
+    margin-bottom: 10px;
+}
+
+table, tr, th {
+    border-collapse: collapse;
+    border: solid black;
+
+    width: 30%;
+}
+
+tr:nth-child(odd) {
+    background-color: #e3f3ee;
+}
+tr:nth-child(even) {
+    background-color: #f2f5f4;
+}
